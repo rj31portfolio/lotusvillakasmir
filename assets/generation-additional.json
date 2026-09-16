@@ -1,0 +1,15 @@
+{
+  "tool": "Built-in image_gen",
+  "files": [
+    {
+      "name": "night",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-efabf4dd-df48-4f95-8771-1324021f2c8d.png",
+      "prompt": "Use case: ads-marketing. Photorealistic luxury travel magazine photography, natural colors, cinematic light, landscape 3:2. A wide architectural photograph of a beautiful luxury timber and stone Kashmir chalet at blue hour night, full building visible from a distance, amber glowing windows, snowy grounds and pine trees with the snow capped Himalayas behind, deep blue sky, cozy inviting atmosphere. No text, logos or watermarks."
+    },
+    {
+      "name": "paradise",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-c70e9d0f-0b3f-43db-8faa-53d1fc5ea585.png",
+      "prompt": "Use case: ads-marketing. Photorealistic luxury travel magazine photography, natural colors, cinematic light, landscape 3:2. A wide panoramic Kashmir mountain valley viewed from an elevated hillside, lush green meadow valley receding into layered blue Himalayan peaks, pine forests framing left and right edges, blue morning sky, pristine natural landscapes. No buildings. No text, logos or watermarks."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+/* Shared spacing and the two additional sections. */
+:root {
+  --section-space: clamp(56px, 6vw, 88px);
+  --soft-border: #d9ceba;
+}
+.container { width: min(90%, 1280px); }
+.eyebrow { margin-bottom: 12px; letter-spacing: 2px; }
+h2 { line-height: 1.12; }
+.memories, .destinations, .gallery { padding-block: var(--section-space); }
+.memories h2, .gallery h2 { font-size: clamp(32px, 3.2vw, 46px); }
+.section-description { margin: 20px auto 32px; font-size: 14px; line-height: 1.8; max-width: 840px; }
+.feature { padding: 20px 14px 12px; gap: 15px; }
+.destinations h2 { font-size: clamp(30px, 2.8vw, 42px); }
+.destinations .gold-rule { margin: 22px auto 32px; width: 70px; }
+.destination-grid { gap: 18px; }
+.destination-card { border-radius: 10px; box-shadow: 0 10px 28px #00170f26; }
+.card-copy { padding: 20px 14px 18px; }
+.card-copy h3 { font-size: 24px; }
+.card-copy h4 { line-height: 1.5; }
+.card-copy p { font-size: 12px; line-height: 1.65; margin-block: 14px 20px; }
+.card-copy .button { min-height: 38px; padding: 9px 12px; font-size: 11px; }
+.stay { width: min(90%, 1280px); margin: var(--section-space) auto 0; grid-template-columns: 1.05fr 1fr; border-radius: 14px; overflow: hidden; background: #f0ebdf; }
+.room-photo { min-height: 430px; max-height: none; height: 100%; }
+.stay-copy { padding: clamp(28px, 4vw, 58px); }
+.stay-copy h2 { font-size: clamp(32px, 3vw, 44px); }
+.stay-copy > p { font-size: 14px; line-height: 1.8; }
+.stay-copy .gold-rule { margin-block: 22px; }
+.amenities { margin-top: 28px; gap: 18px 16px; }
+.amenities li { white-space: normal; line-height: 1.5; align-items: baseline; }
+.gallery { border-top: 1px solid #dfd7c766; }
+.gallery-grid { gap: 16px; margin-top: 32px; }
+.gallery-grid button { aspect-ratio: 1.65; border-radius: 8px; }
+.paradise { padding: 70px 24px; }
+.paradise h2 { font-size: clamp(38px, 4vw, 56px); }
+.paradise p:not(.eyebrow) { margin: 14px 0 24px; font-size: 16px; }
+.paradise .button { min-height: 46px; font-size: 12px; padding-inline: 26px; }
+.footer-main { padding: 44px 0; gap: 30px; }
+.footer-main h3 { margin-bottom: 18px; }
+.contact-links { flex-wrap: wrap; gap: 18px 24px; }
+.contact-links a, .contact-links small, .social-block a { font-size: 11px; }
+.footer-bottom { min-height: 60px; font-size: 10px; }
+.experiences { padding-block: var(--section-space); }
+.section-heading { display: flex; justify-content: space-between; align-items: end; gap: 48px; margin-bottom: 38px; }
+.section-heading h2, .arrival h2 { font-size: clamp(36px, 4vw, 54px); letter-spacing: -.7px; }
+.section-heading h2 em, .arrival h2 em { font-weight: 500; color: #907332; }
+.section-heading > p { max-width: 355px; color: #5e6c63; font-size: 14px; line-height: 1.85; padding-bottom: 4px; }
+.experience-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.experience-card { min-width: 0; }
+.experience-photo { position: relative; aspect-ratio: 1.28; overflow: hidden; border-radius: 100px 8px 8px 8px; background: var(--green); }
+.experience-card:nth-child(2) .experience-photo { border-radius: 8px; }
+.experience-card:nth-child(3) .experience-photo { border-radius: 8px 100px 8px 8px; }
+.experience-photo::after { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 55%, #08291c70); pointer-events: none; }
+.experience-photo img { height: 100%; transition: transform .7s ease; }
+.experience-card:hover img { transform: scale(1.045); }
+.experience-number { position: absolute; left: 24px; bottom: 18px; z-index: 1; color: #fff7e0; font: italic 32px var(--serif); }
+.experience-copy { padding: 25px 4px 0; }
+.experience-copy .eyebrow { font-size: 9px; margin-bottom: 10px; }
+.experience-copy h3 { font-size: clamp(26px, 2.2vw, 32px); margin-bottom: 12px; }
+.experience-copy > p:not(.eyebrow) { color: #5e6c63; font-size: 13px; line-height: 1.8; margin-bottom: 17px; }
+.text-link { display: inline-flex; align-items: center; gap: 15px; min-height: 44px; padding: 6px 0; border: 0; border-bottom: 1px solid #bda365; background: transparent; color: var(--green); text-align: left; font-size: 12px; font-weight: 600; transition: color .2s, gap .2s; }
+.text-link:hover { color: #907332; gap: 22px; }
+.text-link span { font-size: 19px; font-weight: 400; }
+.arrival { padding-block: var(--section-space); background: #eee9dc; border-top: 1px solid #e2d9c8; }
+.arrival-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(40px, 7vw, 100px); align-items: center; }
+.arrival-symbol { display: grid; place-items: center; width: 66px; height: 66px; border: 1px solid #cbbb95; border-radius: 50%; margin-bottom: 26px; }
+.arrival-symbol svg { width: 40px; height: 36px; }
+.arrival-intro > p:not(.eyebrow) { max-width: 355px; color: #5e6c63; line-height: 1.8; margin: 20px 0 26px; font-size: 14px; }
+.arrival-intro .button { min-height: 46px; }
+.arrival-note { display: block; margin-top: 16px; color: #77694d; font: italic 20px var(--serif); }
+.faq-list { border-top: 1px solid #cfc4ae; }
+.faq-list details { border-bottom: 1px solid #cfc4ae; }
+.faq-list summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 0; cursor: pointer; list-style: none; font-size: 15px; line-height: 1.6; font-weight: 500; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary:focus-visible { outline: 2px solid #91732e; outline-offset: 5px; }
+.faq-list summary > span { flex: 0 0 26px; width: 26px; height: 26px; border: 1px solid #c4b389; border-radius: 50%; position: relative; }
+.faq-list summary > span::before, .faq-list summary > span::after { content: ''; position: absolute; width: 10px; height: 1px; background: #7d672c; top: 12px; left: 7px; }
+.faq-list summary > span::after { transform: rotate(90deg); transition: transform .2s; }
+.faq-list details[open] summary > span::after { transform: rotate(0); }
+.faq-answer { padding: 0 36px 25px 0; }
+.faq-answer p { font-size: 13px; color: #5e6c63; line-height: 1.85; }
+.faq-answer .text-link { margin-top: 12px; }
+@media (min-width: 701px) and (max-width: 1100px) {
+  .nav-wrap { width: 92%; gap: 16px; }
+  .nav { gap: 18px; }
+  .nav-book { padding-inline: 12px; }
+  .destination-grid { gap: 10px; }
+  .card-copy { padding: 18px 9px; }
+  .card-copy h3 { font-size: 21px; }
+  .card-copy p { font-size: 11px; }
+  .card-copy .button { font-size: 10px; padding-inline: 8px; gap: 6px; }
+  .experience-grid { gap: 20px; }
+  .experience-copy h3 { font-size: 25px; }
+  .experience-photo { aspect-ratio: 1; }
+  .stay-copy { padding: 30px; }
+  .amenities { grid-template-columns: 1fr; gap: 12px; }
+  .contact-links { gap: 15px; }
+  .contact-links a, .contact-links small { font-size: 10px; }
+  .footer-main .brand { width: 130px; }
+  .social-block { flex-shrink: 0; }
+}
+@media (max-width: 700px) {
+  :root { --section-space: 48px; }
+  .container { width: calc(100% - 40px); }
+  .memories h2, .gallery h2 { font-size: 31px; }
+  .section-description { font-size: 13px; line-height: 1.75; margin: 18px auto 25px; }
+  .feature { padding: 17px 8px; gap: 12px; }
+  .destinations h2 { font-size: 30px; }
+  .destination-grid { gap: 16px; margin-top: 28px; }
+  .card-copy { padding: 22px; }
+  .card-copy h3 { font-size: 28px; }
+  .card-copy p { font-size: 13px; line-height: 1.65; }
+  .card-copy .button { min-height: 44px; font-size: 12px; padding-inline: 18px; }
+  .slider-dots { margin-top: 14px; }
+  .slider-dots button { width: 30px; height: 30px; padding: 12px; }
+  .stay { width: calc(100% - 40px); grid-template-columns: 1fr; }
+  .room-photo { min-height: 0; height: 255px; }
+  .stay-copy { padding: 30px 22px; }
+  .stay-copy h2 { font-size: 32px; }
+  .amenities { font-size: 11px; gap: 15px 12px; }
+  .section-heading { display: block; margin-bottom: 28px; }
+  .section-heading h2, .arrival h2 { font-size: 38px; }
+  .section-heading > p { margin-top: 19px; font-size: 13px; }
+  .experience-grid { grid-template-columns: 1fr; gap: 36px; }
+  .experience-photo { aspect-ratio: 1.45; border-radius: 65px 8px 8px 8px; }
+  .experience-card:nth-child(3) .experience-photo { border-top-right-radius: 65px; }
+  .experience-copy { padding-top: 22px; }
+  .experience-copy h3 { font-size: 29px; }
+  .experience-copy > p:not(.eyebrow) { margin-bottom: 12px; }
+  .gallery-grid { gap: 12px; margin-top: 26px; }
+  .gallery-grid button { aspect-ratio: 1.35; }
+  .arrival-grid { grid-template-columns: 1fr; gap: 34px; }
+  .arrival-symbol { margin-bottom: 22px; }
+  .arrival .eyebrow { font-size: 9px; letter-spacing: 1.4px; }
+  .arrival-intro > p:not(.eyebrow) { font-size: 13px; }
+  .faq-list summary { font-size: 14px; padding-block: 21px; gap: 14px; }
+  .faq-answer { padding-right: 12px; }
+  .paradise { padding: 58px 24px; }
+  .paradise h2 { font-size: 39px; }
+  .paradise p:not(.eyebrow) { font-size: 14px; }
+  .footer-main { padding: 34px 0; gap: 26px; }
+  .footer-bottom { min-height: 56px; font-size: 9px; }
+  .contact-links a { overflow-wrap: anywhere; }
+  .menu-toggle { width: 42px; height: 42px; }
+}
+@media (max-width: 360px) {
+  .amenities { grid-template-columns: 1fr; font-size: 12px; }
+  .section-heading h2, .arrival h2 { font-size: 34px; }
+}

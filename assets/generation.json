@@ -1,0 +1,77 @@
+{
+  "tool": "Built-in image_gen",
+  "heroPrompt": "Use case: ads-marketing. Create a photorealistic luxury hospitality website hero photograph, wide landscape 3:2. Kashmir winter twilight, immense snow-covered Himalayan mountain peaks across the background, dark pine forest and snowy foreground. A luxurious multi-storey timber-and-stone chalet occupies the RIGHT THIRD, warmly glowing amber windows, wooden balconies, snow-covered roofs. Left half shows dramatic mountains and trees with clear room for heading overlay. Blue dusk sky with faint pink sunset. Natural DSLR luxury travel magazine photography, realistic architecture, exquisite detail. No text, no logos, no borders.",
+  "additionalScenes": [
+    [
+      "gulmarg",
+      "An orange gondola cable car above snowy pine slopes at Gulmarg, vast snowy Himalayan peaks in background."
+    ],
+    [
+      "pahalgam",
+      "Pahalgam Kashmir, emerald blue river in a lush meadow, tall pine trees framing snow capped mountains, calm clear summer morning."
+    ],
+    [
+      "sinthan",
+      "Sinthan Top Kashmir, winding dramatic paved hairpin mountain road carved into deep white snow, Himalayan alpine pass beneath a blue sky."
+    ],
+    [
+      "kokernag",
+      "Kokernag Kashmir garden, lovely white octagonal pavilion surrounded by colorful spring flowers, natural spring water and mature green trees with mountains behind."
+    ],
+    [
+      "betaab",
+      "Betaab Valley Kashmir, turquoise river over rounded rocks, lush green banks with tall conifer forest and dramatic mountain peaks in background."
+    ],
+    [
+      "room",
+      "Luxury Kashmir chalet bedroom, walnut wood panel walls, warm bedside lamps, king bed with white linen and caramel throw, elegant armchair, large picture window on right revealing snowy Himalayan peaks. Wide interior architectural photograph."
+    ],
+    [
+      "balcony",
+      "Luxury wooden chalet balcony in Kashmir, elegant wood railing, two armchairs and small coffee table overlooking snow capped mountains and pine forest, peaceful blue morning."
+    ],
+    [
+      "dining",
+      "Luxury Kashmir chalet dining room, elegant set wooden dining table with white plates and glassware, warm pendant lamps, panoramic floor to ceiling windows with snow covered mountain view. Natural warm photography."
+    ]
+  ],
+  "sharedPrompt": "Use case: ads-marketing. Asset type: luxury resort website photograph. [Scene] Photorealistic DSLR luxury travel magazine photography, natural colors, cinematic lighting, detailed authentic materials. Landscape 3:2 composition. No text, no watermark, no borders.",
+  "files": [
+    {
+      "name": "hero",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-567292ee-a863-41ed-ac15-eff12f8daaf1.png"
+    },
+    {
+      "name": "gulmarg",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-907dd1ef-2961-40b2-8837-41816396e870.png"
+    },
+    {
+      "name": "pahalgam",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-36f7a980-c391-4760-8193-e5d5f700644c.png"
+    },
+    {
+      "name": "sinthan",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-c75b00fa-1f41-4a5d-9bfe-13ea05c0f33a.png"
+    },
+    {
+      "name": "kokernag",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-e64db65c-461c-4cb9-9178-be6e22711fe0.png"
+    },
+    {
+      "name": "betaab",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-35dc4a13-65b7-48ca-ab31-e1da5188f3ed.png"
+    },
+    {
+      "name": "room",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-f0a2f029-aa9d-4e51-bd01-cdee6b70c280.png"
+    },
+    {
+      "name": "balcony",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-ec25098b-a706-469c-bbd4-96c4dfff0cd6.png"
+    },
+    {
+      "name": "dining",
+      "path": "C:\\Users\\hp\\.codex\\generated_images\\01a0a8b5-617e-7e30-83d9-5d70df5ea77e\\exec-260661d6-e469-46fc-88a0-a9ada3d9d5ac.png"
+    }
+  ]
+}
