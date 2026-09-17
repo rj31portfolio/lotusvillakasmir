@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="refinements.css">
   <link rel="preload" as="image" href="assets/hero.jpg">
+  <link rel="stylesheet" href="/vendor/sweetalert2.min.css">
+  <script src="/vendor/sweetalert2.min.js" defer></script>
   <script src="script.js" defer></script>
+  <script src="booking.js" defer></script>
 </head>
 
 <body>
@@ -203,7 +206,7 @@
           <span class="arrival-note">A warm welcome starts here.</span>
         </div>
         <div class="faq-list reveal">
-          <details name="stay-faq" open><summary>How do I reserve my stay?<span aria-hidden="true"></span></summary><div class="faq-answer"><p>Choose “Reserve Your Stay” and add your dates and guest details. The form prepares an email enquiry for you to send. Our team will reply with availability and rates, and confirm your booking directly.</p><button class="text-link" data-book>Enquire about your dates <span aria-hidden="true">→</span></button></div></details>
+          <details name="stay-faq" open><summary>How do I reserve my stay?<span aria-hidden="true"></span></summary><div class="faq-answer"><p>Choose “Reserve Your Stay” and add your dates and guest details. The form sends your enquiry directly to our reservations team. Our team will reply with availability and rates, and confirm your booking directly.</p><button class="text-link" data-book>Enquire about your dates <span aria-hidden="true">→</span></button></div></details>
           <details name="stay-faq"><summary>Where is Lotus Villa located?<span aria-hidden="true"></span></summary><div class="faq-answer"><p>Lotus Villa is in Daksum, Kashmir. Contact our team before travelling for the exact location, directions, and help planning your arrival.</p></div></details>
           <details name="stay-faq"><summary>Can you help us plan a day out?<span aria-hidden="true"></span></summary><div class="faq-answer"><p>Tell us which places you would like to explore, and our team can help with itinerary suggestions. Mountain roads and activities depend on the season and local weather, so check conditions before setting out.</p><a class="text-link" href="#destinations">Explore Kashmir <span aria-hidden="true">→</span></a></div></details>
           <details name="stay-faq"><summary>What if we have a special request?<span aria-hidden="true"></span></summary><div class="faq-answer"><p>Include room preferences, family requirements, or a special occasion in your enquiry. Our team will let you know what can be arranged and whether any additional charges apply.</p></div></details>
@@ -248,8 +251,8 @@
     <p class="eyebrow">Your Kashmir escape</p>
     <h2>Reserve Your Stay</h2>
     <p>Tell us about your visit. Our team will confirm availability and help you plan your stay.</p>
-    <form id="booking-form"><label>Your name<input name="name" autocomplete="name" required
-          maxlength="100"></label><label>Email address<input name="email" type="email" autocomplete="email"
+    <form id="booking-form" novalidate><label>Your name<input name="name" autocomplete="name" required
+          maxlength="100"></label><label>Email address<input name="email" type="email" autocomplete="email" maxlength="254"
           required></label>
       <div class="form-row"><label>Check-in<input name="checkin" type="date" required></label><label>Check-out<input
             name="checkout" type="date" required></label></div><label>Guests<select name="guests">
@@ -260,7 +263,7 @@
           <option>5+ guests</option>
         </select></label><label>Anything we should know?<textarea name="message" rows="2" maxlength="1000"
           placeholder="Special occasions, room preferences…"></textarea></label><button class="button gold"
-        type="submit">Prepare Email Enquiry <span>→</span></button>
+        type="submit">Send Enquiry <span>→</span></button>
       <p class="form-note" id="booking-status" role="status">An enquiry does not confirm a booking. Availability is
         confirmed by our team.</p>
     </form><a class="call-link" href="tel:+919953555771">Prefer to call? +91 9953555771</a>

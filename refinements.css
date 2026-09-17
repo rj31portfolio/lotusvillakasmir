@@ -146,3 +146,6 @@ h2 { line-height: 1.12; }
   .amenities { grid-template-columns: 1fr; font-size: 12px; }
   .section-heading h2, .arrival h2 { font-size: 34px; }
 }
+/* SweetAlert stays above the reservation form inside the native dialog. */
+#booking-dialog .swal2-container { position: fixed; }
+#booking-form button:disabled { cursor: wait; opacity: .65; }
