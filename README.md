@@ -21,10 +21,5 @@ Run this Node server on hosting that allows outbound SMTP to `smtp.gmail.com:465
 The endpoint permits five submissions per connection IP per 15 minutes. Behind a reverse proxy, that limit is shared by clients using that proxy; configure a trusted proxy-aware limiter at your hosting layer for production traffic. Multiple server instances need shared rate limiting.
 
 ## Verification
-
 Run `npm test` for validation, HTTP, mail routing, and failure handling tests. Tests use an injected mail transport and do not send real email. After configuring Gmail, submit one enquiry in the browser and check the destination inbox to verify actual delivery.
 
-
-
-i want to new feature in admin panel yelp generate lead, google map generate lead, yellow pages lead make seprate service feature ad by hash data api not mantion api provider name on show admin  in my tool and frontend make more good layout so i want to go live that for revenue start complete working that and business name is SEO Zentro name of thi tool so make logo and some creatives on frontend make easy to under standing all services and use can buy plan 
-and email is info@seozentro.com and gamil is supports.seozentro@gmail.com and all socil meida icon show like insta, facebook, youtub, pintrest and contact number is +91- 8368487667 so complete this project all working and easy to use all features and for seo rich complete that rank on google in 5 to 6 days on top so all complete full fill seo rich and admin can post blog for seo with images and contenet so rank on first pages with seo rich so make it final update 

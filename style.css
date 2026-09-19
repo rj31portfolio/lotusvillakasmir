@@ -244,7 +244,7 @@
     }
 
     .hero-image {
-        background: url('assets/hero.jpg') center 51%/cover;
+        background: url('assets/gallery/lotus-villa-entrance-courtyard.jpg') center 51%/cover;
         animation : cinematic 24s ease-out forwards
     }
 
@@ -615,7 +615,7 @@
         padding              : 22px 20px 19px;
         text-align           : center;
         color                : white;
-        background           : linear-gradient(#042a2345, #07271d9e), url('assets/paradise.jpg') center 53%/cover;
+        background           : linear-gradient(#042a2345, #07271d9e), url('assets/gallery/lotus-villa-balcony-valley-view.jpg') center 53%/cover;
         background-attachment: fixed
     }
 
